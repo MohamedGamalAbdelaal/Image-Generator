@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+outline: none;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff9fb;
+    height: 100vh;
+}
+.img1{
+    width:80px;
+    height: 120px;
+    border-radius: 20%;
+}
+.prompt{
+width: 50%;
+display: flex;
+justify-content: space-between;
+}
+input,button{
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border: 1px solid black;    
+}
+.h2{
+    font-size: 80px !important;
+}
+input{
+    width: 80%;
+    border-radius: 10PX;
+    border:1px solid #E0908D ; 
+}
+.btn{
+    background: #C7495C;
+
+    color: #fff !important;
+    font-size: var(--normal-font-size);
+    font-weight: 500;
+    padding: 10px 20px !important;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer !important;
+}
+.btn:hover{
+    background:#ae384a;
+    color: #fff;
+    cursor: pointer !important;
+}
+.image div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #466A44;
+    border-radius: 20px;
+
+}
+.image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
